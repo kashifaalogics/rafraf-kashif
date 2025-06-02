@@ -42,7 +42,7 @@ const WhatsAppSticky: FunctionComponent<Props> = (props) => {
         <div className="relative w-full h-full animate-bounce"
         // onClick={() => recordAPI({ behaviour: "whatsapp", source: "navbar"})}
         >
-          <Image src={"/images/whatsapp.webp"} alt=""/>
+          <img src={"/images/whatsapp.webp"} alt="" />
         </div>
       </A>
 
