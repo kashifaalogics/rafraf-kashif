@@ -267,7 +267,7 @@ const ProductCardGrid: FunctionComponent<Props> = ({
           {product.manufacturer ? (
             <>
               <div className="col-span-2 productCardVendorLogo">
-                <Image
+                <img
                   src={
                     IMAGES_STORAGE_URL +
                     manuImg[product.manufacturer as keyof typeof manuImg]
