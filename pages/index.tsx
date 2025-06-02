@@ -538,7 +538,7 @@ Click={() => sliderRef.current?.slickNext()} className="rotateNext shadow-md rou
       </Container>
 
       <a id="wablock" className="flex items-center justify-center mb-6 md:mb-0">
-        <Image
+        <img
           src="../images/home/WABlock.webp"
           alt=""
           onClick={() => {
