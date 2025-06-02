@@ -43,7 +43,7 @@ function Lazyoutube() {
 
       <div className="flex items-center justify-center my-8 flex-wrap">
         <div className="w-full lg:w-2/3 xl:w-1/2 relative">
-          <Image
+          <img
             src="/images/Gearboxworth.webp"
             alt=""
             className="w-full md:w-full bg-black"

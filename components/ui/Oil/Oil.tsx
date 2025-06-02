@@ -19,7 +19,7 @@ const Oil = () => {
         />
         <div className="px-6 py-4">
           <div>
-            <Image
+            <img
               src="/images/aboutus/oils.png"
               className="absolute left-0 top-0 h-17 w-16 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in" alt=""
             />
@@ -40,7 +40,7 @@ const Oil = () => {
         />
         <div className="px-6 py-4">
           <div>
-            <Image
+            <img
               src="/images/aboutus/xD.png"
               className="absolute left-0 top-0 h-17 w-14 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in" alt=""
             />

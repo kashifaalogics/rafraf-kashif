@@ -144,7 +144,7 @@ const Navbar: FunctionComponent<Props> = () => {
                 {/* <Image className="w-5" src={"/images/SA.webp"} /> */}
               </div>
               {/* {t("common:star")} */}
-              <Image className="w-5" src={"/images/whatsapp.webp"} />
+              <img className="w-5" src={"/images/whatsapp.webp"} />
             </div>
           </A>
         </div>
@@ -169,12 +169,12 @@ const Navbar: FunctionComponent<Props> = () => {
                       : "md:h-24 md:w-10 h-9 w-9"
                   }`}
                 >
-                  <Image
+                  <img
                     src={"/logo/rafraf.webp"}
                     className="hidden lg:block"
                     alt="rafraf logo"
                   />
-                  <Image
+                  <img
                     src={"/logo/rafraf-small.webp"}
                     className="w-4/5	 block lg:hidden"
                     alt="rafraf logo"
@@ -259,7 +259,7 @@ const Navbar: FunctionComponent<Props> = () => {
                   className={`relative flex items-center justify-center gap-2`}
                 >
                   <div>{t("common/navbar:secureCheckout")}</div>
-                  <Image className="w-6" src={"/images/whatsapp.webp"} />
+                  <img className="w-6" src={"/images/whatsapp.webp"} alt=""/>
                 </div>
               </A>
             </div>
