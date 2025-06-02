@@ -251,7 +251,7 @@ const ProductCardGrid: FunctionComponent<Props> = ({
               />
             </div>
           </div>
-          <Subtitle className="pt-1 md:pt-2 leading-5 my-2 overflow-ellipsis h-12 overflow-hidden z-20">
+          <Subtitle className="pt-1 md:pt-2 leading-5 my-2 overflow-ellipsis h-12 overflow-hidden z-20 ">
             {product.name ? product.name : product.name}
           </Subtitle>
           <div className="flex items-baseline my-1 md:my-2">
@@ -267,7 +267,7 @@ const ProductCardGrid: FunctionComponent<Props> = ({
           {product.manufacturer ? (
             <>
               <div className="col-span-2 productCardVendorLogo">
-                <Image
+                <img
                   src={
                     IMAGES_STORAGE_URL +
                     manuImg[product.manufacturer as keyof typeof manuImg]
