@@ -38,7 +38,7 @@ const RelatdProduct: FunctionComponent<Props> = ({ products, title, routerId }) 
   const [avaliableProducts, setAvaliableProducts] = useState([]) as any
   const [isLoad, setIsLoad] = useState(true);
   // console.log("Before Useffect:> ", products);
-  
+
   useEffect(() => {
     if(routerId !== "parts/7442") {
         setAvaliableProducts(products)
@@ -50,8 +50,8 @@ const RelatdProduct: FunctionComponent<Props> = ({ products, title, routerId }) 
             return p
           }
         })
-      
-        setAvaliableProducts(filtered.slice(0, 8))      
+
+        setAvaliableProducts(filtered.slice(0, 8))
         const timer = setTimeout(() => {
             setShowSVG(true);
             }, 4000);
@@ -63,10 +63,10 @@ const RelatdProduct: FunctionComponent<Props> = ({ products, title, routerId }) 
         setIsLoad(false);
       }
     },[avaliableProducts])
-        
-      
-        
-        
+
+
+
+
 
   if (breakpoint === "sm") {
     return (
@@ -127,7 +127,7 @@ const RelatdProduct: FunctionComponent<Props> = ({ products, title, routerId }) 
           </div>
           {
             <>
-              {isLoad && 
+              {isLoad &&
               <Loading />
               }
               <Slider
@@ -145,13 +145,13 @@ const RelatdProduct: FunctionComponent<Props> = ({ products, title, routerId }) 
               return(
                 <RelatedProductCard key={p.id} product={p} />
               )
-            }) } 
+            }) }
           </Slider>
             </>
-            
-            
+
+
           }
-          
+
         </div>
       </>
     );
